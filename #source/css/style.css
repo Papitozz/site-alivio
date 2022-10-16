@@ -1,0 +1,36 @@
+*, p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1413px;
+  background-color: black;
+}
+
+.header__nav {
+  padding: 17px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 252px 840px 277px;
+  grid-template-columns: 252px 840px 277px;
+}
+
+.logo p {
+  color: #01996D;
+}
